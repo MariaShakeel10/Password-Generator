@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!-- ..............css link............ -->
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container main p-4 m-auto rounded">
+        <div class=" d-flex justify-content-center">
+            <div class="my p-2">
+                <label for="pass">
+                    <input type="text" id="my-password" value=""></label>
+                <div class="one pt-2 p-2">
+                    <label for="length">Password length
+                        <input type="number" max="20" id="length" value="10" min="10"></label>
+                </div>
+
+                <div class="two p-2">
+                    <label for="capital">Capital letter
+                    <input type="checkbox" name="" id="capital" checked></label>
+                </div>
+                <div class="three p-2">
+                    <label for="small">Small letter
+                    <input type="checkbox" name="" id="small" checked></label>
+                </div>
+                <div class="four p-2">
+                    <label for="no.">Numbers 
+                    <input type="checkbox" name="" id="no." checked></label>
+                </div>
+                <div class="five p-2">
+                    <label for="symbol">Symbols
+                    <input type="checkbox" name="" id="symbol" checked></label>
+                </div>
+                <div class="btn text-center d-flex justify-content-center">
+                    <button type="button" class="btn btn-light " id="btn">Generate</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!-- ..............js link............ -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1fe1c6;
+}
+.my {
+    background-color: aqua !important;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input{
+    vertical-align: middle;
+}
